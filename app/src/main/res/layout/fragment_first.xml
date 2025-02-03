@@ -25,10 +25,11 @@
 
                     <ImageView
                         android:id="@+id/imageView7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
                         android:layout_weight="1"
-                        android:src="@tools:sample/avatars" />
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/albondigas" />
 
                     <TextView
                         android:id="@+id/textView2"
@@ -50,10 +51,11 @@
 
                     <ImageView
                         android:id="@+id/imageView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
                         android:layout_weight="1"
-                        android:src="@tools:sample/avatars" />
+                        android:src="@tools:sample/avatars"
+                        app:srcCompat="@drawable/brownie" />
 
                     <TextView
                         android:id="@+id/textView3"
