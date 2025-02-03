@@ -25,4 +25,19 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.recetas.fragment3"
+        android:label="fragment_fragment3"
+        tools:layout="@layout/fragment_fragment3" />
+    <fragment
+        android:id="@+id/fragment4"
+        android:name="com.example.recetas.fragment4"
+        android:label="fragment_fragment4"
+        tools:layout="@layout/fragment_fragment4" />
+    <fragment
+        android:id="@+id/fragment5"
+        android:name="com.example.recetas.fragment5"
+        android:label="fragment_fragment5"
+        tools:layout="@layout/fragment_fragment5" />
 </navigation>

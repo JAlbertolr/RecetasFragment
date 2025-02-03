@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="87dp"
         android:gravity="center"
@@ -17,39 +18,49 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/btnHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/casa" />
+            android:src="@drawable/casa"
+            android:contentDescription="Ir a Inicio"
+            android:onClick="btnHome"/>
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/btnEnsalada"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/ensalada" />
+            android:src="@drawable/ensalada"
+            android:contentDescription="Ir a Ensaladas"
+            android:onClick="btnEnsalada"/>
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/btnCarne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/carne" />
+            android:src="@drawable/carne"
+            android:contentDescription="Ir a Carnes"
+            android:onClick="btnCarne"/>
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/btnPescado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/pescado" />
+            android:src="@drawable/pescado"
+            android:contentDescription="Ir a Pescados"
+            android:onClick="btnPescado"/>
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/btnPostre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/pastel" />
+            android:src="@drawable/pastel"
+            android:contentDescription="Ir a Postres"
+            android:onClick="btnPostre"/>
 
     </LinearLayout>
 
@@ -58,6 +69,7 @@
         android:layout_width="405dp"
         android:layout_height="647dp"
         android:fitsSystemWindows="true"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -73,7 +85,7 @@
             android:id="@+id/fragmentContainerView"
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
-            android:layout_height="476dp"
+            android:layout_height="wrap_content"
             app:navGraph="@navigation/nav_graph" />
 
     </com.google.android.material.appbar.AppBarLayout>

@@ -16,12 +16,28 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void boton7(View view){
-        NavController navController= Navigation.findNavController(this,R.id.fragmentContainerView);
+    public void btnHome(View view) {
+        NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
         navController.navigate(R.id.FirstFragment);
     }
-    public void boton8(View view){
-        NavController navController= Navigation.findNavController(this,R.id.fragmentContainerView);
+
+    public void btnEnsalada(View view) {
+        NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
+        navController.navigate(R.id.FirstFragment);
+    }
+
+    public void btnCarne(View view) {
+        NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
         navController.navigate(R.id.SecondFragment);
+    }
+
+    public void btnPescado(View view) {
+        NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
+        navController.navigate(R.id.fragment3);
+    }
+
+    public void btnPostre(View view) {
+        NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
+        navController.navigate(R.id.fragment4);
     }
 }
