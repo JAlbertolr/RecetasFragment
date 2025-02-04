@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnPescado(View view) {
         NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
-        navController.navigate(R.id.fragment3);
+        navController.navigate(R.id.fragment4);
     }
 
     public void btnPostre(View view) {
         NavController navController = Navigation.findNavController(this, R.id.fragmentContainerView);
-        navController.navigate(R.id.fragment4);
+        navController.navigate(R.id.fragment3);
     }
 }

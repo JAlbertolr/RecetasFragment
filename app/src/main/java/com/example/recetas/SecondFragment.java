@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TableRow;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -19,16 +20,25 @@ public class SecondFragment extends Fragment {
     private FragmentSecondBinding binding;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Cargar la vista del diseño del fragment
         View view = inflater.inflate(R.layout.fragment_second, container, false);
-        //Referencia al boton que realiza la accion
-       /* Button buttonToNext2 = view.findViewById((R.id.button_second));
-        //Configurar la accion del boton
-        buttonToNext2.setOnClickListener(v -> {
-            NavController navController = Navigation.findNavController(view);
-            navController.navigate(R.id.action_SecondFragment_to_FirstFragment);
-        });*/
-        return view;
-    }}
+
+        // Obtener el TableRow y asignar el listener
+        TableRow tableRow1 = view.findViewById(R.id.tableRow2);
+        tableRow1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                verRecetaCarne(v);
+            }
+        });
+
+        return view; // Asegúrate de retornar la vista
+    }
+    // Este método se ejecutará al hacer clic en el TableRow
+    public void verRecetaCarne(View view) {
+        NavController navController = Navigation.findNavController(view);
+        navController.navigate(R.id.fragment7);
+    }
+
+}

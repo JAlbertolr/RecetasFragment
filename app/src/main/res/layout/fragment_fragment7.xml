@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment5">
+    tools:context=".fragment7">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="Seleccionar categoría"
-        android:text="Ensalada"
+        android:text="Carnes"
         android:textSize="24sp"
         app:chipBackgroundColor="#009688"
         app:chipSurfaceColor="#E4EFEE"
@@ -75,12 +75,25 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:contentDescription="Seleccionar categoría"
-            android:text="Histamina"
+            android:text="Cítricos"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.792"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:contentDescription="Seleccionar categoría"
+            android:text="Ajo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.792"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
 
     </com.google.android.material.chip.ChipGroup>
 
@@ -103,7 +116,7 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ensalada Mediterránea"
+                android:text="Pollo al limón"
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -112,20 +125,20 @@
                 android:id="@+id/imgFlan"
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
-                app:srcCompat="@drawable/mediterranea" />
+                app:srcCompat="@drawable/pollolimon" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ingredienteEnsalada"
+                android:text="@string/ingrepollo"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/elaboracionEnsalada"
+                android:text="@string/prepapollo"
                 android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>

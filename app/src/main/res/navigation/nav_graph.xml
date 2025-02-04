@@ -44,4 +44,31 @@
             android:id="@+id/action_fragment5_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/fragment6"
+        android:name="com.example.recetas.fragment6"
+        android:label="fragment_fragment6"
+        tools:layout="@layout/fragment_fragment6" >
+        <action
+            android:id="@+id/action_fragment6_to_fragment4"
+            app:destination="@id/fragment4" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment7"
+        android:name="com.example.recetas.fragment7"
+        android:label="fragment_fragment7"
+        tools:layout="@layout/fragment_fragment7" >
+        <action
+            android:id="@+id/action_fragment7_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment8"
+        android:name="com.example.recetas.fragment8"
+        android:label="fragment_fragment8"
+        tools:layout="@layout/fragment_fragment8" >
+        <action
+            android:id="@+id/action_fragment8_to_fragment3"
+            app:destination="@id/fragment3" />
+    </fragment>
 </navigation>

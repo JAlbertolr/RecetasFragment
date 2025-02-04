@@ -9,7 +9,7 @@
     <string name="imgEnsaladaMediterranea">Ensalada Mediterránea</string>
     <string name="ingredienteEnsalada">
 
-    \nIngredientes:\n\n
+    \n<b>Ingredientes:</b>\n\n
 
     1 taza de lechuga\n
     1/2 pepino\n
@@ -21,10 +21,73 @@
 
     </string>
     <string name="elaboracionEnsalada">
-        \nElaboración:\n\n
+        \n<b>Elaboración:</b>\n\n
         Sazona el salmón con sal, pimienta y limón.\n Cocina en una sartén con aceite 4 minutos por cada lado.\n Sirve con perejil.
 
     </string>
+    <string name="ingresalmon">\n<b>Ingredientes</b> (para 2 personas):\n\n
+2 filetes de salmón\n
+2 dientes de ajo picados\n
+Jugo de 1 limón\n
+2 cucharadas de aceite de oliva\n
+Sal y pimienta al gusto\n
+1 cucharadita de perejil fresco picado (opcional)\n
+Rodajas de limón para decorar\n</string>
+    <string name="prepasalmon">\n<b>Preparación:</b>\n\n
+Preparar el salmón: Seca los filetes de salmón con papel absorbente y sazónalos con sal y pimienta por ambos lados.\n
+Calentar la sartén: En una sartén antiadherente, calienta el aceite de oliva a fuego medio-alto.\n
+Cocinar el salmón: Coloca los filetes con la piel hacia abajo (si la tienen) y cocina durante 3-4 minutos sin moverlos, hasta que la parte inferior se dore bien.\n
+Dar la vuelta y añadir ajo: Voltea los filetes con cuidado y añade el ajo picado. Cocina por 2-3 minutos más hasta que el salmón esté en su punto.\n
+Añadir limón: Exprime el jugo de limón sobre los filetes en los últimos segundos de cocción.\n
+Servir: Retira del fuego, espolvorea con perejil fresco y decora con rodajas de limón.\n</string>
+
+    <string name="ingrepollo">\n<b>Ingredientes (para 4 personas):</b>\n\n
+4 pechugas de pollo\n
+Jugo de 2 limones\n
+3 dientes de ajo picados\n
+4 cucharadas de aceite de oliva\n
+Sal y pimienta al gusto\n
+1 cucharadita de orégano seco (opcional)\n
+Rodajas de limón para decorar\n
+Perejil fresco picado para decorar (opcional)\n</string>
+    <string name="prepapollo">Preparación:\n
+Marinar el pollo: En un bol, mezcla el jugo de limón, ajo picado, aceite de oliva, sal, pimienta y orégano. Añade las pechugas de pollo y deja marinar durante al menos 30 minutos.\n
+
+Calentar la sartén: En una sartén grande, calienta un poco de aceite de oliva a fuego medio-alto.\n
+
+Cocinar el pollo: Retira las pechugas de la marinada (reserva la marinada) y cocina el pollo en la sartén durante 6-7 minutos por cada lado, o hasta que esté dorado y cocido por completo.\n
+
+Añadir la marinada: En los últimos minutos de cocción, vierte la marinada reservada en la sartén para que el pollo absorba más sabor.\n
+
+Servir: Retira del fuego, decora con rodajas de limón y perejil fresco antes de servir.</string>
+
+    <string name="ingreflan">\n<b>Ingredientes (para 6 porciones):</b>\n
+Para el caramelo:\n\n
+
+1 taza de azúcar\n
+1/4 de taza de agua\n
+Para el flan:\n\n
+
+4 huevos\n
+1 lata (397 g) de leche condensada\n
+1 lata (397 g) de leche evaporada\n
+1 cucharadita de extracto de vainilla\n
+Pizca de sal\n</string>
+    <string name="prepaflan"><b>Preparar el caramelo:</b>\n\n
+
+En una cacerola a fuego medio, mezcla el azúcar y el agua. Cocina sin revolver hasta que el azúcar se disuelva y adquiera un color dorado. Vierte el caramelo en un molde para flan, cubriendo el fondo y un poco de los lados. Deja enfriar.\n
+Preparar la mezcla del flan:\n
+
+En un bol grande, bate los huevos. Añade la leche condensada, la leche evaporada, el extracto de vainilla y la pizca de sal. Mezcla bien hasta que esté todo integrado.\n
+Verter en el molde:\n
+
+Vierte la mezcla del flan sobre el caramelo en el molde.\n
+Cocinar al baño maría:\n
+
+Precalienta el horno a 180°C (350°F). Coloca el molde del flan en una bandeja para hornear. Llena la bandeja con agua caliente hasta la mitad del molde del flan. Hornea durante 50-60 minutos, o hasta que al insertar un cuchillo, este salga limpio.\n
+Enfriar y desmoldar:\n
+
+Deja enfriar a temperatura ambiente y luego refrigera por al menos 4 horas. Para desmoldar, pasa un cuchillo por los bordes y voltea sobre un plato.\n</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

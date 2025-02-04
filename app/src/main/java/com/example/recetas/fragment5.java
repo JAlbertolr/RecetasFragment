@@ -20,7 +20,7 @@ public class fragment5 extends Fragment {
         View view = inflater.inflate(R.layout.fragment_fragment5, container, false);
 
         //Referencia al boton que realiza la accion
-        Button buttonT = view.findViewById((R.id.btnInicio));
+        Button buttonT = view.findViewById((R.id.btnInicioFlan));
         //Configurar la accion del boton
         buttonT.setOnClickListener(v -> {
             NavController navController = Navigation.findNavController(view);
