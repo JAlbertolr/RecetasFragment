@@ -39,5 +39,9 @@
         android:id="@+id/fragment5"
         android:name="com.example.recetas.fragment5"
         android:label="fragment_fragment5"
-        tools:layout="@layout/fragment_fragment5" />
+        tools:layout="@layout/fragment_fragment5" >
+        <action
+            android:id="@+id/action_fragment5_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
 </navigation>
